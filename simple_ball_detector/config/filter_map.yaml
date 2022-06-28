@@ -1,0 +1,22 @@
+filter_map:
+  - name: "blue"
+    min_hue:   '115'
+    max_hue:   '999' # No practical limit
+    min_sat:    '64'
+    max_sat:   '999' # No practical limit
+    min_value:  '64'
+    max_value: '999' # No practical limit
+  - name: "green"
+    min_hue:   '60'
+    max_hue:   '115'
+    min_sat:    '64'
+    max_sat:   '999' # No practical limit
+    min_value:  '64'
+    max_value: '999' # No practical limit
+  - name: "red"
+    min_hue:   '0'
+    max_hue:   '60'
+    min_sat:   '128' # Enforce stronger red limits
+    max_sat:   '999' # No practical limit
+    min_value: '128' # Enforce stronger red limits
+    max_value: '999' # No practical limit

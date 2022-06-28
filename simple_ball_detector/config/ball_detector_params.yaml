@@ -1,0 +1,26 @@
+simple_ball_detector:
+    ros__parameters:
+        target_frame: "map"
+        robot_frame: "base_link"
+        camera_frame: "camera_rgb_optical_frame_rotated"
+        ball_radius: 0.0254 # 1 inch radius balls
+        z_offset: 0.0
+        min_row_pixel: 220  # Slightly above centerline row
+        max_row_pixel: 5000 # Bigger than image, no limit
+        min_col_pixel: -1   # No limit left
+        max_col_pixel: 5000 # No limit right
+        min_range:  0.1  # Expect ball centered no less than 2 inches away
+        max_range:  4.0   # Keep reasonable for our robot
+        min_box_ratio: 0.75  # Minimum ratio of bounding box side lengths in (0, 0.99)
+        min_box_size: 5  # Minimum bounding box side length in pixels
+        min_radius: 2    # Minimum circle radius in pixels
+        marker_alpha: 0.4
+        marker_lifetime_seconds: 6
+        marker_topic: 'markers_out'
+        augmented_image_topic: 'augmented_image'
+        image_in_topic: 'image_in'
+        camera_info_topic: 'info_in'
+        average_focal_length: 393.6 # Wll be overwritten by any camera info message received
+        desired_update_period: 0.19
+        tf_wait_time_seconds: 0.10
+        filter_map_file: 'filter_map.yaml'

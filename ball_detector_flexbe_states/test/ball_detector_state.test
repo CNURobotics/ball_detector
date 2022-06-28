@@ -1,0 +1,13 @@
+path: ball_detector_flexbe_states.ball_detector_state
+class: BallDetectorState
+
+import_only: true
+
+params:
+    balls_topic:    [ '/ball_detector/balls']
+    min_radius_pixels: 10
+
+outcome:
+    blue_detected
+    green_detected
+    red_detected

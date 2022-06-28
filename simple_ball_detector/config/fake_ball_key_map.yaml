@@ -1,0 +1,54 @@
+# 'q' and 'c' are reserved keys for quit and clear ball list respectively
+fake_ball_key_map:
+  '1':
+    id: 1
+    label: 'red'
+    rgb_color: [255, 0, 0]
+    center:
+      col: 160
+      row: 280
+    range: 1.5   # meters
+  '2':
+    id: 2
+    label: 'red'
+    rgb_color: [255, 0, 0]
+    center:
+      col: 320
+      row: 280
+    range: 1.0   # meters
+  '3':
+    id: 3
+    label: 'red'
+    rgb_color: [255, 0, 0]
+    center:
+      col: 480
+      row: 280
+    range: 1.5   # meters
+  '4':
+    id: 4
+    label: 'green'
+    rgb_color: [0, 255, 0]
+    center:
+      col: 480
+      row: 280
+    range: 2.5   # meters
+
+
+# elif char == "4":
+#     self._ball_color = "green"
+#     self._ball_center = [self._image_width * 0.25, self._image_height/2.0]
+# elif char == "5":
+#     self._ball_color = "green"
+#     self._ball_center = [self._image_width * 0.5, self._image_height/2.0]
+# elif char == "6":
+#     self._ball_color = "green"
+#     self._ball_center = [self._image_width * 0.75, self._image_height/2.0]
+# elif char == "7":
+#     self._ball_color = "blue"
+#     self._ball_center = [self._image_width * 0.25, self._image_height/2.0]
+# elif char == "8":
+#     self._ball_color = "blue"
+#     self._ball_center = [self._image_width * 0.5, self._image_height/2.0]
+# elif char == "9":
+#     self._ball_color = "blue"
+#     self._ball_center = [self._image_width * 0.75, self._image_height/2.0]
