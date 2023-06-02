@@ -8,16 +8,13 @@
   <maintainer email="robotics@todo.todo">CNU Robotics</maintainer>
   <license>BSD</license>
 
-  <buildtool_depend>ament_python</buildtool_depend>
-
-  <depend>rclpy</depend>
+  <depend>ball_detector_msgs</depend>
   <depend>cv_bridge</depend>
-  <depend>opencv2</depend>
-  <depend>rospy</depend>
+  <depend>image_pipeline</depend>
+  <depend>python3-opencv</depend>
+  <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
-  <depend>image_pipeline</depend>
-  <depend>ball_detector_msgs</depend>
 
 
   <test_depend>ament_copyright</test_depend>
