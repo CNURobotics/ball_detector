@@ -2,7 +2,7 @@ simple_ball_detector:
     ros__parameters:
         target_frame: "map"
         robot_frame: "base_link"
-        camera_frame: "camera_rgb_optical_frame_rotated"
+        camera_frame: "camera_rgb_optical_frame"
         ball_radius: 0.0254 # 1 inch radius balls
         z_offset: 0.0
         min_row_pixel: 220  # Slightly above centerline row

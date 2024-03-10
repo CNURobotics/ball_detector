@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>A package to demonstration basic image processing with ROS by detecting colored balls </description>
 
-  <maintainer email="robotics@todo.todo">CNU Robotics</maintainer>
+  <maintainer email="robotics@cnu.edu">CNU Robotics</maintainer>
   <license>BSD</license>
 
   <depend>ball_detector_msgs</depend>

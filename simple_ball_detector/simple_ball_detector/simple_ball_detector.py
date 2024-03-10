@@ -46,7 +46,7 @@ class SimpleBallDectector(Node):
 
         self.declare_parameter('target_frame', "map")       # Desired frame
         self.declare_parameter('robot_frame', "base_link")
-        self.declare_parameter('camera_frame', "camera_rgb_optical_frame_rotated")
+        self.declare_parameter('camera_frame', "camera_rgb_optical_frame")
         self.declare_parameter('ball_radius', 0.0254) # ball radius to be detected (assume same size)
         self.declare_parameter('z_offset', 0.0) # z offset for projection
         self.declare_parameter('min_col_pixel', -1) # Minimum column(x-axis) of image
